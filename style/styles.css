@@ -75,7 +75,7 @@ footer p{
   flex-wrap: wrap;
   padding: 50px;
   background-attachment: fixed;
-
+  overflow-x: hidden;
 }
 .musicContainer{
   background: linear-gradient(#F3C82B, transparent 90%),
