@@ -44,6 +44,7 @@ footer p{
 }
 .aboutContainer p{
   font-size: 1.5em;
+  overflow-x: hidden
 }
 .music{
   color: black;
@@ -74,6 +75,7 @@ footer p{
   flex-wrap: wrap;
   padding: 50px;
   background-attachment: fixed;
+
 }
 .musicContainer{
   background: linear-gradient(#F3C82B, transparent 90%),
@@ -181,7 +183,17 @@ input, textarea{
 }
 @media (max-width: 1005px){
   .aboutContainer{
-    height: 82vh;
+    height: auto;
+    padding: 25px;
+  }
+  .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+
   }
   .PeterFace{
     padding-top: 15px;
@@ -199,8 +211,15 @@ input, textarea{
     max-width: 75%;
   }
 }
-
-
+@media (max-width: 500px){
+  .box{
+    height: auto;
+    width: 90%;
+    padding: 10px;
+  }
+  .about{
+    width: 100%
+  }
 
 
 
