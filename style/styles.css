@@ -1,0 +1,235 @@
+/* HTML TAGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 3.5em;
+  text-align: center;
+  font-family: 'Permanent Marker';
+}
+body {
+  position: relative;
+  background-color: #F3C82B
+}
+nav ul li{
+  color: black;
+  font-size: 3em;
+  font-family: 'Permanent Marker';
+  text-align: center;
+}
+footer{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+}
+p{
+  font-size: 1em;
+  line-height: 1.3;
+  text-decoration: none;
+}
+footer p{
+  color: black;
+  font-family: 'Permanent Marker';
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/* CLASSES */
+.about{
+  color: #F3C82B;
+}
+.aboutContainer p{
+  font-size: 1.5em;
+}
+.music{
+  color: black;
+  font-family: 'Permanent Marker';
+  font-size: 4em;
+  margin-top: 1.25em;
+
+}
+.landingContainer{
+  background: linear-gradient(#F3C82B, transparent 90%),
+              linear-gradient(0deg, #F3C82B, transparent 90%),
+              linear-gradient(90deg, #F3C82B, transparent 90%),
+              linear-gradient(270deg, #F3C82B, transparent 90%),
+              #F3C82B url("../img/LandingBG.jpeg") repeat center;
+  background: contain;
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+.aboutContainer{
+  height: 70vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  background-attachment: fixed;
+}
+.musicContainer{
+  background: linear-gradient(#F3C82B, transparent 90%),
+              linear-gradient(0deg, #F3C82B, transparent 90%),
+              linear-gradient(90deg, #F3C82B, transparent 90%),
+              linear-gradient(270deg, #F3C82B, transparent 90%),
+              #F3C82B url("../img/Parallax.jpeg") repeat center;
+  background: contain;
+  height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+.contactContainer{
+  background: linear-gradient(#F3C82B, transparent 90%),
+              linear-gradient(0deg, #F3C82B, transparent 90%),
+              linear-gradient(90deg, #F3C82B, transparent 90%),
+              linear-gradient(270deg, #F3C82B, transparent 90%),
+              #F3C82B url("../img/Parallax.jpeg") repeat center;
+  background: contain;
+  height: calc(105vh);
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+.PeterFace{
+  border-radius: 50%;
+}
+.box{
+  height: 400px;
+  width: 400px;
+  margin: 2em;
+}
+.musicContainer{
+  height: 85vh;
+  background-color: #F3C82B;
+  }
+.musicbox{
+  margin: auto;
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  margin: auto;
+  max-width: 100%;
+  justify-content: center;
+  /* padding-bottom: 8em; */
+}
+.icon{
+  width: 50px;
+  height: 50px;
+}
+.scBox{
+  box-shadow: 0px 15px 15px -12px black;
+}
+.contactForm{
+  margin: auto;
+  font-size: .6em;
+  margin-bottom: 10px;
+  max-width: 60%;
+  padding-bottom: 50px;
+}
+.contactForm > *{
+  padding: 1em;
+}
+#myHeader{
+  padding-top: 3em;
+}
+.contactForm p{
+  line-height: 2;
+}
+.contactForm form{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label{
+  display: block;
+}
+.fade-in{
+  animation: fadeIn 4s;
+}
+.contactForm button{
+  padding: 10px;
+  background-color: transparent;
+  box-shadow: 0px 5px 15px -5px black;
+  border: none;
+}
+.messageBox{
+  padding: 20px;
+}
+input, textarea{
+  border: none;
+  box-shadow: 0px 10px 15px -12px black;
+  font-family: helvetica
+}
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 1005px){
+  .aboutContainer{
+    height: 82vh;
+  }
+  .PeterFace{
+    padding-top: 15px;
+  }
+  .musicbox {
+    width: 75%;
+  }
+  footer p{
+    position: static;
+  }
+  .contactContainer{
+    height: 115vh;
+  }
+  .contactForm{
+    max-width: 75%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* . */
